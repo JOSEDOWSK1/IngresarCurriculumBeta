@@ -6,7 +6,7 @@ app = Flask(__name__) # Instantiate a new web application called `app`, with `__
 @app.route("/") 
 def index():
 	return render_template(index.html)
-@app.route("/hola", methonds=["POST")
+@app.route("/hola", methods=["POST"])
 def hola():
 	name = request.form.get("name")
 	return render_template("hola.html",name=name)
