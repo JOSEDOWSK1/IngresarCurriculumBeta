@@ -1,0 +1,66 @@
+{% extends "layout.html" %}
+{% block heading %}
+	Mi Curriculum
+{% endblock %}
+{% block body %}
+<form action="{{url_for('hola'}} method="post">
+	<input type="text" name= "name" placeholder ="Ingresa tu nombre ">
+	<br>
+	<input type="text" name= "fullname" placeholder ="Ingresa tu nombre completo">
+	<br>
+	<input type="text" name= "presentation" placeholder ="Escribe una presentación">
+	<br>
+	<input type="text" name= "email" placeholder ="Ingresa tu email">
+	<br>
+	<input type="text" name= "number" placeholder ="Ingresa tu numero de contacto">
+	<br>
+	<input type="text" name= "address" placeholder ="Ingresa tu dirección">
+	<br>
+	<input type="text" name= "weebly" placeholder ="Ingresa tu weebly">
+	<br>
+	<input type="text" name= "skill1" placeholder ="Ingresa tu habiilidad 1">
+	<br>
+	<input type="text" name= "skill2" placeholder ="Ingresa tu habiilidad 2">
+	<br>
+	<input type="text" name= "skill3" placeholder ="Ingresa tu habiilidad 3">
+	<br>
+	<input type="text" name= "skill4" placeholder ="Ingresa tu habiilidad 4">
+	<br>
+	<input type="text" name= "skill5" placeholder ="Ingresa tu habiilidad 5">
+	<br>
+	<input type="text" name= "facebook" placeholder ="Ingresa tu usuario en facebook">
+	<br>
+	<input type="text" name= "linkedin" placeholder ="Ingresa tu usuario en Linkedin">
+	<br>
+	<input type="text" name= "youtube" placeholder ="Ingresa tu usuario en Youtube">
+	<br>
+	<input type="text" name= "instagram" placeholder ="Ingresa tu usuario en Instagram">
+	<br>
+	<input type="text" name= "twuitter" placeholder ="Ingresa tu usuario en Twitter">
+	<br>
+	<input type="text" name= "workexp1" placeholder ="Experiencia laboral 1">
+	<br>
+	<input type="text" name= "workexp2" placeholder ="Experiencia laboral 2">
+	<br>
+	<input type="text" name= "workexp3" placeholder ="Experiencia laboral 3">
+	<br>
+	<input type="text" name= "workexp4" placeholder ="Experiencia laboral 4">
+	<br>
+	<input type="text" name= "education1" placeholder ="Educacion 1">
+	<br>
+	<input type="text" name= "education2" placeholder ="Educacion 2">
+	<br>
+	<input type="text" name= "education3" placeholder ="Educacion 3">
+	<br>
+	<input type="text" name= "education4" placeholder ="Educacion 4">
+	<br>
+	<input type="text" name= "hobbies1" placeholder ="Hobbies 1">
+	<br>
+	<input type="text" name= "hobbies2" placeholder ="Hobbies 2">
+	<br>
+	<input type="text" name= "hobbies3" placeholder ="Hobbies 3">
+	<br>
+	<input type="text" name= "hobbies4" placeholder ="Hobbies 4">
+	<button>Enviar</button>
+	</form>
+{% enbdblock %}
